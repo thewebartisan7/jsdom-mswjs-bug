@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["ES6", "DOM"],
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "typeRoots": ["node_modules/@types"],
+        "plugins": [{ "name": "typescript-plugin-css-modules" }]
+    },
+    "exclude": [
+      "./node_modules"
+    ]
+  }
+  
