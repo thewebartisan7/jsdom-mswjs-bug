@@ -5,7 +5,7 @@ export const Test = () => {
   return (
     <>
       <h1>uncomment to reproduce issue</h1>
-      {/* <Users /> */}
+      <Users />
     </>
   );
 };
